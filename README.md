@@ -14,6 +14,8 @@ Button, Filter, ChartFrame, DataTable, StreamRow, and EmptyState. Color, space, 
 
 Pass `className`, `style`, or a color. Pass a node type the contract does not name. Put a hex value anywhere but the token source.
 
+`pnpm gate` fails the build for the same reasons. [gate](https://github.com/hybridappdev/gate)
+
 ## Catalog
 
 ```

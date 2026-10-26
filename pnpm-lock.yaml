@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      '@hybridappdev/gate':
+        specifier: github:hybridappdev/gate
+        version: https://codeload.github.com/hybridappdev/gate/tar.gz/69d994ed2c705155cbc75d1869ed3bfc2601a6b8
       '@storybook/addon-docs':
         specifier: ^10.6.4
         version: 10.6.4(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(storybook@10.6.4(@types/react@19.3.0)(react@19.3.1))
@@ -357,6 +360,12 @@ packages:
     peerDependenciesMeta:
       '@noble/hashes':
         optional: true
+
+  '@hybridappdev/gate@https://codeload.github.com/hybridappdev/gate/tar.gz/69d994ed2c705155cbc75d1869ed3bfc2601a6b8':
+    resolution: {tarball: https://codeload.github.com/hybridappdev/gate/tar.gz/69d994ed2c705155cbc75d1869ed3bfc2601a6b8}
+    version: 0.1.0
+    engines: {node: '>=20'}
+    hasBin: true
 
   '@joshwooding/vite-plugin-react-docgen-typescript@0.7.0':
     resolution: {integrity: sha512-qvsTEwEFefhdirGOPnu9Wp6ChfIwy2dBCRuETU3uE+4cC+PFoxMSiiEhxk4lOluA34eARHA0OxqsEUYDqRMgeQ==}
@@ -2025,6 +2034,8 @@ snapshots:
     optional: true
 
   '@exodus/bytes@1.16.0': {}
+
+  '@hybridappdev/gate@https://codeload.github.com/hybridappdev/gate/tar.gz/69d994ed2c705155cbc75d1869ed3bfc2601a6b8': {}
 
   '@joshwooding/vite-plugin-react-docgen-typescript@0.7.0(typescript@7.0.2)(vite@8.3.5(@types/node@26.6.5)(esbuild@0.28.2))':
     dependencies:

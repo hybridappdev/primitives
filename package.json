@@ -24,7 +24,8 @@
     "build": "vite build && tsc -p tsconfig.build.json",
     "storybook": "storybook dev -p 6006",
     "test": "vitest run",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "gate": "gate"
   },
   "peerDependencies": {
     "react": "^19.0.0",
@@ -32,10 +33,12 @@
   },
   "pnpm": {
     "onlyBuiltDependencies": [
-      "esbuild"
+      "esbuild",
+      "@hybridappdev/gate"
     ]
   },
   "devDependencies": {
+    "@hybridappdev/gate": "github:hybridappdev/gate",
     "@storybook/addon-docs": "^10.6.4",
     "@storybook/react-vite": "^10.6.4",
     "@testing-library/react": "^16.3.3",

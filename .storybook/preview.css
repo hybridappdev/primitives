@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font: var(--type-body);
+}
+
+.catalog-frame {
+  max-width: 40rem;
+}
+
+.catalog-caption {
+  margin: var(--space-6) 0 0;
+  color: var(--color-fg-secondary);
+  font: var(--type-body);
+}
+
+.docs-story,
+#storybook-root {
+  background: var(--color-bg);
+  color: var(--color-fg);
+}

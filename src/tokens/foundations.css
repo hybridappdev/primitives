@@ -1,0 +1,86 @@
+.token-list,
+.type-list {
+  display: grid;
+  gap: var(--space-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-width: 36rem;
+}
+
+.token-row,
+.type-block {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.token-name,
+.type-name {
+  margin: 0;
+  color: var(--color-fg);
+  font: var(--type-label);
+}
+
+.swatch {
+  width: var(--space-8);
+  height: var(--space-8);
+  flex: none;
+  border: var(--border-hairline) solid var(--color-line);
+  border-radius: var(--radius-control);
+}
+
+.swatch[data-color="bg"] { background: var(--color-bg); }
+.swatch[data-color="bg-raised"] { background: var(--color-bg-raised); }
+.swatch[data-color="bg-muted"] { background: var(--color-bg-muted); }
+.swatch[data-color="fg"] { background: var(--color-fg); }
+.swatch[data-color="fg-secondary"] { background: var(--color-fg-secondary); }
+.swatch[data-color="fg-muted"] { background: var(--color-fg-muted); }
+.swatch[data-color="line"] { background: var(--color-line); }
+.swatch[data-color="accent"] { background: var(--color-accent); }
+.swatch[data-color="on-accent"] { background: var(--color-on-accent); }
+.swatch[data-color="positive"] { background: var(--color-positive); }
+.swatch[data-color="negative"] { background: var(--color-negative); }
+.swatch[data-color="attention"] { background: var(--color-attention); }
+
+.space-name {
+  width: var(--space-8);
+  flex: none;
+  margin: 0;
+  color: var(--color-fg-secondary);
+  font: var(--type-figure);
+}
+
+.space-bar {
+  height: var(--space-3);
+  background: var(--color-fg);
+}
+
+.space-bar[data-space="0"] { width: var(--space-0); }
+.space-bar[data-space="1"] { width: var(--space-1); }
+.space-bar[data-space="2"] { width: var(--space-2); }
+.space-bar[data-space="3"] { width: var(--space-3); }
+.space-bar[data-space="4"] { width: var(--space-4); }
+.space-bar[data-space="6"] { width: var(--space-6); }
+.space-bar[data-space="8"] { width: var(--space-8); }
+.space-bar[data-space="12"] { width: var(--space-12); }
+
+.type-block {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-1);
+}
+
+.type-name {
+  color: var(--color-fg-muted);
+}
+
+.type-sample {
+  margin: 0;
+  color: var(--color-fg);
+}
+
+.type-sample[data-role="label"] { font: var(--type-label); }
+.type-sample[data-role="body"] { font: var(--type-body); }
+.type-sample[data-role="title"] { font: var(--type-title); }
+.type-sample[data-role="figure"] { font: var(--type-figure); }

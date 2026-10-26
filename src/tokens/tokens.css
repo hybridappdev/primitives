@@ -1,0 +1,50 @@
+/* Hex values live only in this file. */
+
+:root,
+[data-scheme="light"] {
+  color-scheme: light;
+  --color-bg: #f4f3ef;
+  --color-bg-raised: #fbfaf7;
+  --color-bg-muted: #e8e6e0;
+  --color-fg: #1a1916;
+  --color-fg-secondary: #45433e;
+  --color-fg-muted: #6e6b64;
+  --color-line: #ddd9d0;
+  --color-accent: #1a1916;
+  --color-on-accent: #f4f3ef;
+  --color-positive: #1b6b45;
+  --color-negative: #9c3b34;
+  --color-attention: #8a5a16;
+  --space-0: 0;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --radius-control: 6px;
+  --border-hairline: 1px;
+  --font-text: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-figure: "JetBrains Mono", ui-monospace, monospace;
+  --type-label: 500 12px/16px var(--font-text);
+  --type-body: 400 14px/20px var(--font-text);
+  --type-title: 600 16px/24px var(--font-text);
+  --type-figure: 500 13px/20px var(--font-figure);
+}
+
+[data-scheme="dark"] {
+  color-scheme: dark;
+  --color-bg: #141412;
+  --color-bg-raised: #1c1c19;
+  --color-bg-muted: #262621;
+  --color-fg: #f2f0e9;
+  --color-fg-secondary: #c2bfb4;
+  --color-fg-muted: #8d8a81;
+  --color-line: #30302b;
+  --color-accent: #f2f0e9;
+  --color-on-accent: #141412;
+  --color-positive: #7dba96;
+  --color-negative: #e0928a;
+  --color-attention: #d7ae62;
+}
